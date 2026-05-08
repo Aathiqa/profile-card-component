@@ -64,6 +64,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  font-size: 14px;
 }
 
 .analytics {
@@ -77,8 +78,10 @@ h3 {
   margin: 20px;
 }
 
-small {
+.label {
   text-align: center;
+  font-size: 10px;
+  margin-top: 5px;
 }
 
 .attribution {
