@@ -61,6 +61,7 @@ p {
 .analytics {
   display: flex;
   justify-content: center;
+  border-top: 1px solid color-mix(in srgb, var(--Gray-500) 15%, transparent);
 }
 
 .value {
