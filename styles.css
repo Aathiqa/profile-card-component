@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .card {
@@ -27,10 +28,20 @@ body {
   position: absolute;
 }
 
-.intro {
+h3 {
+  font-size: 18px;
+}
+
+.name-age {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
 }
 
 .analytics {
