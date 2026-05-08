@@ -47,13 +47,14 @@ small {
 }
 
 .profile-pic {
-  height: 60px;
+  height: 100px;
   width: auto;
-  border-radius: 40px;
+  border-radius: 50%;
   position: relative;
-  bottom: 35px;
+  bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
+  outline: 4px solid var(--Gray-100);
 }
 
 .attribution {
