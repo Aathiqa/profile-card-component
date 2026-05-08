@@ -22,12 +22,24 @@ body {
 
 .card {
   height: 375px;
-  width: 330px;
+  width: 310px;
   background-color: var(--Gray-100);
   color: var(--Gray-500);
   position: absolute;
   border-radius: 8px;
   overflow: hidden;
+}
+
+.profile-pic {
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+  position: relative;
+  bottom: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  outline: 4px solid var(--Gray-100);
+  margin-bottom: -40px;
 }
 
 h3 {
@@ -59,16 +71,6 @@ small {
   text-align: center;
 }
 
-.profile-pic {
-  height: 100px;
-  width: auto;
-  border-radius: 50%;
-  position: relative;
-  bottom: 60px;
-  left: 50%;
-  transform: translateX(-50%);
-  outline: 4px solid var(--Gray-100);
-}
 
 .attribution {
   font-size: 0.6875rem;
