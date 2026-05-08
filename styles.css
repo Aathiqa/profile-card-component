@@ -21,7 +21,7 @@ body {
 }
 
 .card {
-  height: 375px;
+  min-height: 375px;
   width: 310px;
   background-color: var(--Gray-100);
   color: var(--Gray-500);
@@ -40,6 +40,12 @@ body {
   transform: translateX(-50%);
   outline: 4px solid var(--Gray-100);
   margin-bottom: -40px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 h3 {
