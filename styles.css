@@ -60,9 +60,10 @@ h3 {
   gap: 8px;
 }
 
-p {
+.location {
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .analytics {
