@@ -69,19 +69,24 @@ h3 {
 
 .analytics {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   border-top: 1px solid color-mix(in srgb, var(--Gray-500) 15%, transparent);
   margin-top: 40px;
+  padding: 20px 0;
 }
 
-.value {
-  margin: 20px;
+
+.stat {
+  display: flex;
+  justify-content: space-around;
 }
 
 .label {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
   font-size: 10px;
   margin-top: 5px;
+  letter-spacing: 3px;
 }
 
 .attribution {
@@ -92,3 +97,24 @@ h3 {
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 620px) {
+  .card {
+    min-height: 415px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .card {
+    min-height: 465px;
+    width: 400px;
+  }
+
+  .bg-img {
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+}
