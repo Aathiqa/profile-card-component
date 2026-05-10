@@ -31,8 +31,9 @@ body {
 }
 
 .profile-pic {
-  height: 100px;
+  height: auto;
   width: auto;
+  max-width: 100%;
   border-radius: 50%;
   position: relative;
   bottom: 55px;
